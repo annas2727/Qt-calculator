@@ -9,7 +9,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>455</width>
+    <width>464</width>
     <height>520</height>
    </rect>
   </property>
@@ -27,7 +27,7 @@
   </property>
   <property name="styleSheet">
    <string notr="true">/*Change the background color */
-</string>
+background-color: black;</string>
   </property>
   <widget class="QWidget" name="centralwidget">
    <property name="styleSheet">
@@ -83,8 +83,8 @@ background-color : white;
       <property name="styleSheet">
        <string notr="true">#verticalWidget
 { 
-  border: 2px solid gray;
-  background-color: rgb(239,239,239);
+  border: 2px solid orange;
+  background-color: black;
 }
 </string>
       </property>
@@ -108,9 +108,9 @@ background-color : white;
          </property>
          <property name="styleSheet">
           <string notr="true">QLabel{
-  color: #000;
-  background-color: rgb(239,239,239);
-}</string>
+ color: #fff;
+}
+</string>
          </property>
          <property name="text">
           <string>0</string>
@@ -144,9 +144,9 @@ background-color : white;
          </property>
          <property name="styleSheet">
           <string notr="true">QLabel{
-  color: #000;
-  background-color: rgb(239,239,239);
-}</string>
+ color: #fff;
+}
+</string>
          </property>
          <property name="text">
           <string>0</string>
@@ -194,18 +194,19 @@ background-color : white;
          <font>
           <family>Arial</family>
           <pointsize>16</pointsize>
-          <weight>50</weight>
-          <bold>false</bold>
+          <bold>true</bold>
          </font>
         </property>
         <property name="styleSheet">
          <string notr="true">/* (Clear,+/-,%,. buttons) Unary Operations Buttons Stylesheet */
 
 QPushButton {
-  color: #FFF;
-  background-color: rgb(241, 122, 28);
-  border-radius: 4px;
-  padding: 10px;
+color: white;
+background-color: black;
+border-radius: 4px;
+padding: 10px;
+border: 2px solid #F8FF01;
+font-weight: bold;
 }
 
 QPushButton:pressed {
@@ -233,18 +234,19 @@ QPushButton:pressed {
          <font>
           <family>Arial</family>
           <pointsize>16</pointsize>
-          <weight>50</weight>
-          <bold>false</bold>
+          <bold>true</bold>
          </font>
         </property>
         <property name="styleSheet">
          <string notr="true">/* (Clear,+/-,%,. buttons) Unary Operations Buttons Stylesheet */
 
 QPushButton {
-  color: #FFF;
-  background-color: rgb(241, 122, 28);
-  border-radius: 4px;
-  padding: 10px;
+color: white;
+background-color: black;
+border-radius: 4px;
+padding: 10px;
+border: 2px solid #FFF301;
+font-weight: bold;
 }
 
 QPushButton:pressed {
@@ -281,16 +283,16 @@ QPushButton:pressed {
          <font>
           <family>Arial</family>
           <pointsize>16</pointsize>
-          <weight>50</weight>
           <bold>false</bold>
          </font>
         </property>
         <property name="styleSheet">
          <string notr="true">QPushButton {
-color: rgb(134,134,140);
-background-color: rgb(239,239,239);
+color: white;
+background-color: black;
 border-radius: 4px;
 padding: 10px;
+border: 2px solid #FFD001;
 }
 
 QPushButton:hover {
@@ -334,17 +336,18 @@ radius: 1.35, stop: 0 #707070, stop: 1 #606060
          <font>
           <family>Arial</family>
           <pointsize>16</pointsize>
-          <weight>50</weight>
           <bold>false</bold>
          </font>
         </property>
         <property name="styleSheet">
          <string notr="true">QPushButton {
-color: rgb(134,134,140);
-background-color: rgb(239,239,239);
+color: white;
+background-color: black;
 border-radius: 4px;
 padding: 10px;
+border: 2px solid #FFF301;
 }
+
 
 QPushButton:hover {
 background: qradialgradient(
@@ -381,18 +384,19 @@ radius: 1.35, stop: 0 #707070, stop: 1 #606060
          <font>
           <family>Arial</family>
           <pointsize>16</pointsize>
-          <weight>50</weight>
-          <bold>false</bold>
+          <bold>true</bold>
          </font>
         </property>
         <property name="styleSheet">
          <string notr="true">/* (Clear,+/-,%,. buttons) Unary Operations Buttons Stylesheet */
 
 QPushButton {
-  color: #FFF;
-  background-color: rgb(241, 122, 28);
-  border-radius: 4px;
-  padding: 10px;
+color: white;
+background-color: black;
+border-radius: 4px;
+padding: 10px;
+border: 2px solid #FFF301;
+font-weight: bold;
 }
 
 QPushButton:pressed {
@@ -420,7 +424,6 @@ QPushButton:pressed {
          <font>
           <family>Arial</family>
           <pointsize>16</pointsize>
-          <weight>50</weight>
           <bold>false</bold>
          </font>
         </property>
@@ -428,11 +431,13 @@ QPushButton:pressed {
          <string notr="true">/* (Clear,+/-,%,. buttons) Unary Operations Buttons Stylesheet */
 
 QPushButton {
-  color: #FFF;
-  background-color: rgb(241, 122, 28);
-  border-radius: 4px;
-  padding: 10px;
+color: white;
+background-color: black;
+border-radius: 4px;
+padding: 10px;
+border: 2px solid #FFDF01;
 }
+
 
 QPushButton:pressed {
     background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
@@ -465,16 +470,16 @@ QPushButton:pressed {
          <font>
           <family>Arial</family>
           <pointsize>16</pointsize>
-          <weight>50</weight>
           <bold>false</bold>
          </font>
         </property>
         <property name="styleSheet">
          <string notr="true">QPushButton {
-color: rgb(134,134,140);
-background-color: rgb(239,239,239);
+color: white;
+background-color: black;
 border-radius: 4px;
 padding: 10px;
+border: 2px solid #FFDF01;
 }
 
 QPushButton:hover {
@@ -515,7 +520,6 @@ radius: 1.35, stop: 0 #707070, stop: 1 #606060
          <font>
           <family>Arial</family>
           <pointsize>16</pointsize>
-          <weight>50</weight>
           <bold>false</bold>
          </font>
         </property>
@@ -523,10 +527,11 @@ radius: 1.35, stop: 0 #707070, stop: 1 #606060
          <string notr="true">/* (Clear,+/-,%,. buttons) Unary Operations Buttons Stylesheet */
 
 QPushButton {
-  color: #000;
-  background-color: rgb(215, 215, 215);
+  color: #fff;
+  background-color: black;
   border-radius: 4px;
   padding: 10px;
+  border: 2px solid #FFB301;
 }
 
 QPushButton:pressed {
@@ -551,8 +556,7 @@ QPushButton:pressed {
          <font>
           <family>Arial</family>
           <pointsize>16</pointsize>
-          <weight>50</weight>
-          <bold>false</bold>
+          <bold>true</bold>
          </font>
         </property>
         <property name="toolTip">
@@ -565,10 +569,12 @@ QPushButton:pressed {
          <string notr="true">/* (Clear,+/-,%,. buttons) Unary Operations Buttons Stylesheet */
 
 QPushButton {
-  color: #FFF;
-  background-color: rgb(239, 92, 98);
-  border-radius: 4px;
-  padding: 10px;
+color: white;
+background-color: black;
+border-radius: 4px;
+padding: 10px;
+border: 2px solid #A4FF01;
+font-weight: bold;
 }
 
 QPushButton:pressed {
@@ -596,19 +602,21 @@ QPushButton:pressed {
          <font>
           <family>Arial</family>
           <pointsize>12</pointsize>
-          <weight>50</weight>
-          <bold>false</bold>
+          <bold>true</bold>
          </font>
         </property>
         <property name="styleSheet">
          <string notr="true">/* (Clear,+/-,%,. buttons) Unary Operations Buttons Stylesheet */
 
 QPushButton {
-  color: #000;
-  background-color: rgb(215, 215, 215);
-  border-radius: 4px;
-  padding: 10px;
+color: white;
+background-color: black;
+border-radius: 4px;
+padding: 10px;
+border: 2px solid #FFF301;
+font-weight: bold;
 }
+
 
 QPushButton:pressed {
     background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
@@ -635,18 +643,19 @@ QPushButton:pressed {
          <font>
           <family>Arial</family>
           <pointsize>12</pointsize>
-          <weight>50</weight>
-          <bold>false</bold>
+          <bold>true</bold>
          </font>
         </property>
         <property name="styleSheet">
          <string notr="true">/* (Clear,+/-,%,. buttons) Unary Operations Buttons Stylesheet */
 
 QPushButton {
-  color: #000;
-  background-color: rgb(215, 215, 215);
-  border-radius: 4px;
-  padding: 10px;
+color: white;
+background-color: black;
+border-radius: 4px;
+padding: 10px;
+border: 2px solid #FFD001;
+font-weight: bold;
 }
 
 QPushButton:pressed {
@@ -680,16 +689,16 @@ QPushButton:pressed {
          <font>
           <family>Arial</family>
           <pointsize>16</pointsize>
-          <weight>50</weight>
           <bold>false</bold>
          </font>
         </property>
         <property name="styleSheet">
          <string notr="true">QPushButton {
-color: rgb(134,134,140);
-background-color: rgb(239,239,239);
+color: white;
+background-color: black;
 border-radius: 4px;
 padding: 10px;
+border: 2px solid #FFB301;
 }
 
 QPushButton:hover {
@@ -733,16 +742,16 @@ radius: 1.35, stop: 0 #707070, stop: 1 #606060
          <font>
           <family>Arial</family>
           <pointsize>16</pointsize>
-          <weight>50</weight>
           <bold>false</bold>
          </font>
         </property>
         <property name="styleSheet">
          <string notr="true">QPushButton {
-color: rgb(134,134,140);
-background-color: rgb(239,239,239);
+color: white;
+background-color: black;
 border-radius: 4px;
 padding: 10px;
+border: 2px solid #FFD001;
 }
 
 QPushButton:hover {
@@ -786,16 +795,16 @@ radius: 1.35, stop: 0 #707070, stop: 1 #606060
          <font>
           <family>Arial</family>
           <pointsize>16</pointsize>
-          <weight>50</weight>
           <bold>false</bold>
          </font>
         </property>
         <property name="styleSheet">
          <string notr="true">QPushButton {
-color: rgb(134,134,140);
-background-color: rgb(239,239,239);
+color: white;
+background-color: black;
 border-radius: 4px;
 padding: 10px;
+border: 2px solid #FFB301;
 }
 
 QPushButton:hover {
@@ -833,19 +842,21 @@ radius: 1.35, stop: 0 #707070, stop: 1 #606060
          <font>
           <family>Arial</family>
           <pointsize>16</pointsize>
-          <weight>50</weight>
-          <bold>false</bold>
+          <bold>true</bold>
          </font>
         </property>
         <property name="styleSheet">
          <string notr="true">/* (Clear,+/-,%,. buttons) Unary Operations Buttons Stylesheet */
 
 QPushButton {
-  color: #FFF;
-  background-color: rgb(105, 165, 245);
-  border-radius: 4px;
-  padding: 10px;
+color: white;
+background-color: black;
+border-radius: 4px;
+padding: 10px;
+border: 2px solid #E4FF01;
+font-weight: bold;
 }
+
 
 QPushButton:pressed {
     background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
@@ -875,17 +886,18 @@ QPushButton:pressed {
          <font>
           <family>Arial</family>
           <pointsize>16</pointsize>
-          <weight>50</weight>
           <bold>false</bold>
          </font>
         </property>
         <property name="styleSheet">
          <string notr="true">QPushButton {
-color: rgb(134,134,140);
-background-color: rgb(239,239,239);
+color: white;
+background-color: black;
 border-radius: 4px;
 padding: 10px;
+border: 2px solid #FFF301;
 }
+
 
 QPushButton:hover {
 background: qradialgradient(
@@ -928,16 +940,16 @@ radius: 1.35, stop: 0 #707070, stop: 1 #606060
          <font>
           <family>Arial</family>
           <pointsize>16</pointsize>
-          <weight>50</weight>
           <bold>false</bold>
          </font>
         </property>
         <property name="styleSheet">
          <string notr="true">QPushButton {
-color: rgb(134,134,140);
-background-color: rgb(239,239,239);
+color: white;
+background-color: black;
 border-radius: 4px;
 padding: 10px;
+border: 2px solid #FFDF01;
 }
 
 QPushButton:hover {
@@ -975,18 +987,19 @@ radius: 1.35, stop: 0 #707070, stop: 1 #606060
          <font>
           <family>Arial</family>
           <pointsize>16</pointsize>
-          <weight>50</weight>
-          <bold>false</bold>
+          <bold>true</bold>
          </font>
         </property>
         <property name="styleSheet">
          <string notr="true">/* (Clear,+/-,%,. buttons) Unary Operations Buttons Stylesheet */
 
 QPushButton {
-  color: #FFF;
-  background-color: rgb(196, 56, 227);
-  border-radius: 4px;
-  padding: 10px;
+color: white;
+background-color: black;
+border-radius: 4px;
+padding: 10px;
+border: 2px solid #F8FF01;
+font-weight: bold;
 }
 
 QPushButton:pressed {
@@ -1018,7 +1031,6 @@ QPushButton:pressed {
          <font>
           <family>Arial</family>
           <pointsize>16</pointsize>
-          <weight>50</weight>
           <bold>false</bold>
          </font>
         </property>
@@ -1026,10 +1038,11 @@ QPushButton:pressed {
          <string notr="true">/* (Clear,+/-,%,. buttons) Unary Operations Buttons Stylesheet */
 
 QPushButton {
-  color: #000;
-  background-color: rgb(215, 215, 215);
+  color: #fff;
+  background-color: black;
   border-radius: 4px;
   padding: 10px;
+  border: 2px solid #FFB301;
 }
 
 QPushButton:pressed {
@@ -1057,18 +1070,19 @@ QPushButton:pressed {
          <font>
           <family>Arial</family>
           <pointsize>16</pointsize>
-          <weight>50</weight>
-          <bold>false</bold>
+          <bold>true</bold>
          </font>
         </property>
         <property name="styleSheet">
          <string notr="true">/* (Clear,+/-,%,. buttons) Unary Operations Buttons Stylesheet */
 
 QPushButton {
-  color: #FFF;
-  background-color: rgb(38, 196, 111);
-  border-radius: 4px;
-  padding: 10px;
+color: white;
+background-color: black;
+border-radius: 4px;
+padding: 10px;
+border: 2px solid #C6FF01;
+font-weight: bold;
 }
 
 QPushButton:pressed {
@@ -1105,16 +1119,16 @@ QPushButton:pressed {
          <font>
           <family>Arial</family>
           <pointsize>16</pointsize>
-          <weight>50</weight>
           <bold>false</bold>
          </font>
         </property>
         <property name="styleSheet">
          <string notr="true">QPushButton {
-color: rgb(134,134,140);
-background-color: rgb(239,239,239);
+color: white;
+background-color: black;
 border-radius: 4px;
 padding: 10px;
+border: 2px solid #FFD001;
 }
 
 QPushButton:hover {
@@ -1152,18 +1166,19 @@ radius: 1.35, stop: 0 #707070, stop: 1 #606060
          <font>
           <family>Arial</family>
           <pointsize>12</pointsize>
-          <weight>50</weight>
-          <bold>false</bold>
+          <bold>true</bold>
          </font>
         </property>
         <property name="styleSheet">
          <string notr="true">/* (Clear,+/-,%,. buttons) Unary Operations Buttons Stylesheet */
 
 QPushButton {
-  color: #000;
-  background-color: rgb(215, 215, 215);
-  border-radius: 4px;
-  padding: 10px;
+color: white;
+background-color: black;
+border-radius: 4px;
+padding: 10px;
+border: 2px solid #F8FF01;
+font-weight: bold;
 }
 
 QPushButton:pressed {
@@ -1197,18 +1212,18 @@ QPushButton:pressed {
          <font>
           <family>Arial</family>
           <pointsize>16</pointsize>
-          <weight>50</weight>
           <bold>false</bold>
          </font>
         </property>
         <property name="styleSheet">
          <string notr="true">QPushButton {
-color: rgb(134,134,140);
-background-color: rgb(239,239,239);
+color: white;
+background-color: black;
 border-radius: 4px;
 padding: 10px;
+border: 2px solid #FFB301;
 }
-
+2
 QPushButton:hover {
 background: qradialgradient(
 cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,
@@ -1244,16 +1259,16 @@ radius: 1.35, stop: 0 #707070, stop: 1 #606060
          <font>
           <family>Arial</family>
           <pointsize>16</pointsize>
-          <weight>50</weight>
           <bold>false</bold>
          </font>
         </property>
         <property name="styleSheet">
          <string notr="true">QPushButton {
-color: rgb(134,134,140);
-background-color: rgb(239,239,239);
+color: white;
+background-color: black;
 border-radius: 4px;
 padding: 10px;
+border: 2px solid #FFDF01;
 }
 
 QPushButton:hover {
@@ -1291,19 +1306,21 @@ radius: 1.35, stop: 0 #707070, stop: 1 #606060
          <font>
           <family>Arial</family>
           <pointsize>12</pointsize>
-          <weight>50</weight>
-          <bold>false</bold>
+          <bold>true</bold>
          </font>
         </property>
         <property name="styleSheet">
          <string notr="true">/* (Clear,+/-,%,. buttons) Unary Operations Buttons Stylesheet */
 
 QPushButton {
-  color: #000;
-  background-color: rgb(215, 215, 215);
-  border-radius: 4px;
-  padding: 10px;
+color: white;
+background-color: black;
+border-radius: 4px;
+padding: 10px;
+border: 2px solid #FFDF01;
+font-weight: bold;
 }
+
 
 QPushButton:pressed {
     background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
@@ -1330,18 +1347,19 @@ QPushButton:pressed {
          <font>
           <family>Arial</family>
           <pointsize>12</pointsize>
-          <weight>50</weight>
-          <bold>false</bold>
+          <bold>true</bold>
          </font>
         </property>
         <property name="styleSheet">
          <string notr="true">/* (Clear,+/-,%,. buttons) Unary Operations Buttons Stylesheet */
 
 QPushButton {
-  color: #000;
-  background-color: rgb(215, 215, 215);
-  border-radius: 4px;
-  padding: 10px;
+color: white;
+background-color: black;
+border-radius: 4px;
+padding: 10px;
+border: 2px solid #E4FF01;
+font-weight: bold;
 }
 
 QPushButton:pressed {
@@ -1369,17 +1387,19 @@ QPushButton:pressed {
          <font>
           <family>Arial</family>
           <pointsize>16</pointsize>
-          <weight>50</weight>
-          <bold>false</bold>
+          <bold>true</bold>
          </font>
         </property>
         <property name="styleSheet">
          <string notr="true">/* (Clear,+/-,%,. buttons) Unary Operations Buttons Stylesheet */
 
 QPushButton {
-  background-color: rgb(254,99,71);
+  background-color: black;
   border-radius: 4px;
+  border: 2px solid #FFA401;
   padding: 5px;
+  color: white;
+  font-weight: bold;
 }
 
 QPushButton:pressed {
@@ -1407,18 +1427,19 @@ QPushButton:pressed {
          <font>
           <family>Arial</family>
           <pointsize>12</pointsize>
-          <weight>50</weight>
-          <bold>false</bold>
+          <bold>true</bold>
          </font>
         </property>
         <property name="styleSheet">
          <string notr="true">/* (Clear,+/-,%,. buttons) Unary Operations Buttons Stylesheet */
 
 QPushButton {
-  color: #000;
-  background-color: rgb(215, 215, 215);
-  border-radius: 4px;
-  padding: 10px;
+color: white;
+background-color: black;
+border-radius: 4px;
+padding: 10px;
+border: 2px solid #C6FF01;
+font-weight: bold;
 }
 
 QPushButton:pressed {
@@ -1446,18 +1467,19 @@ QPushButton:pressed {
          <font>
           <family>Arial</family>
           <pointsize>12</pointsize>
-          <weight>50</weight>
-          <bold>false</bold>
+          <bold>true</bold>
          </font>
         </property>
         <property name="styleSheet">
          <string notr="true">/* (Clear,+/-,%,. buttons) Unary Operations Buttons Stylesheet */
 
 QPushButton {
-  color: #000;
-  background-color: rgb(215, 215, 215);
-  border-radius: 4px;
-  padding: 10px;
+color: white;
+background-color: black;
+border-radius: 4px;
+padding: 10px;
+border: 2px solid #F8FF01;
+font-weight: bold;
 }
 
 QPushButton:pressed {
@@ -1485,18 +1507,19 @@ QPushButton:pressed {
          <font>
           <family>Arial</family>
           <pointsize>12</pointsize>
-          <weight>50</weight>
-          <bold>false</bold>
+          <bold>true</bold>
          </font>
         </property>
         <property name="styleSheet">
          <string notr="true">/* (Clear,+/-,%,. buttons) Unary Operations Buttons Stylesheet */
 
 QPushButton {
-  color: #000;
-  background-color: rgb(215, 215, 215);
-  border-radius: 4px;
-  padding: 10px;
+color: white;
+background-color: black;
+border-radius: 4px;
+padding: 10px;
+border: 2px solid #E4FF01;
+font-weight: bold;
 }
 
 QPushButton:pressed {
@@ -1545,8 +1568,8 @@ QPushButton:pressed {
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>455</width>
-     <height>21</height>
+     <width>464</width>
+     <height>24</height>
     </rect>
    </property>
    <widget class="QMenu" name="menuFile">
